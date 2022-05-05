@@ -222,7 +222,7 @@ ul#mainMenu {
       border-radius: 10px;
 
       &:hover {
-        background-color: rgb(183 183 183 / 28%);
+        background-color: rgba(183, 183, 183, 0.28);
       }
     }
   }
@@ -409,7 +409,7 @@ body.page {
   }
 }
 
-.description-lesson{
+.description-lesson {
   background-color: #464646;
   padding: 10px;
   color: #FFF;
