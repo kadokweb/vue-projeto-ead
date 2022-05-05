@@ -1,4 +1,4 @@
-# vue-ead
+# Projeto vue.js 3 com laravel 9
 
 ## Project setup
 ```
