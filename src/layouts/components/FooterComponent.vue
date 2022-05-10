@@ -1,7 +1,7 @@
 <template>
   <footer>
     <span class="copyright fontSmall">
-      Todos os Direitos reservados - <b>Especializati</b>
+      Todos os Direitos reservados - <b>KdokWeb</b>
     </span>
   </footer>
 </template>

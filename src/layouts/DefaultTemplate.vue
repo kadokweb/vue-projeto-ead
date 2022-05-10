@@ -11,13 +11,23 @@
 </template>
 
 <script>
+// import { onBeforeMount } from '@vue/runtime-core';
+import { onBeforeMount } from "vue";
 import HeaderComponent from "./components/HeaderComponent.vue";
 import FooterComponent from "./components/FooterComponent.vue";
 
 export default {
-  components: { HeaderComponent },
   name: "DefaultTemplate",
-  component: {
+
+  setup() {
+    onBeforeMount(() => {
+      document.body.classList.add("page");
+      document.body.classList.add("dark");
+      document.title = "Kadok Web";
+    });
+  },
+
+  components: {
     HeaderComponent,
     FooterComponent,
   },

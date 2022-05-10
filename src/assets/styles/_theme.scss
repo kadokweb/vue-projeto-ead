@@ -18,6 +18,7 @@ $backgroundBold: #363636;
 $backgroundLight: #464646;
 $backgroundList: #404040;
 $backgroundThin: #e1e1e1;
+$backgroundVue: #2e86b4;
 
 $textColor: #646464;
 $textColorLight: #e6e6e6;
@@ -74,6 +75,14 @@ body {
   &.light {
     background-color: $backgroundLight;
   }
+
+  &.thin {
+    background-color: $backgroundThin;
+  }
+
+  &.vue {
+    background-color: $backgroundVue;
+  }
 }
 
 .disabled {
@@ -87,8 +96,8 @@ ul {
 
 // Util classes
 .logo img {
-    width: 200px;
-    height: auto;
+  width: 200px;
+  height: auto;
 }
 
 .btn {
@@ -234,13 +243,13 @@ i.buttom {
   }
 
   textarea {
-    width: 100%!important;
+    width: 100% !important;
     min-height: 150px;
     border: none;
     outline: none;
     text-indent: 10px;
     padding-top: 5px;
-    font-family: $defaultFont!important;
+    font-family: $defaultFont  !important;
   }
 
   i {
@@ -272,7 +281,7 @@ i.buttom {
 }
 
 .fontSmall {
-  font-size: 10px!important;
+  font-size: 10px !important;
 }
 
 .modal-mask {
@@ -332,18 +341,16 @@ i.buttom {
     margin: 1rem 0;
     margin-bottom: 0;
   }
-  
+
   textarea:focus {
     background: none repeat scroll 0 0 white;
     outline-width: 0;
   }
-  
+
   button {
     width: auto;
     margin-right: .5rem;
   }
 
-  @include respond-to("medium") {
-
-  }
+  @include respond-to("medium") {}
 }
