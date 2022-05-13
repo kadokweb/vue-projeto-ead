@@ -23,7 +23,7 @@ export default {
     onBeforeMount(() => {
       document.body.classList.add("page");
       document.body.classList.add("dark");
-      document.title = "Kadok Web";
+      document.title = "KadokWeb - webfoot";
     });
   },
 

@@ -1,4 +1,5 @@
 @import "_responsive";
+@import "_mycss";
 
 // Variables for theme
 
@@ -9,42 +10,42 @@ $defaultFont: "Open Sans", sans-serif;
 $defaultFontSize: 1rem;
 
 // Colors
-$primary: #8331a5;
-$primaryLight: #b77dcf;
-$grayLight: #dbdbdb;
+// $primary: #8331a5;
+// $primaryLight: #b77dcf;
+// $grayLight: #dbdbdb;
 
-$backgroundDark: #272727;
-$backgroundBold: #363636;
-$backgroundLight: #464646;
-$backgroundList: #404040;
-$backgroundThin: #e1e1e1;
-$backgroundVue: #2e86b4;
+// $backgroundDark: #272727;
+// $backgroundBold: #363636;
+// $backgroundLight: #464646;
+// $backgroundList: #404040;
+// $backgroundThin: #e1e1e1;
+// $backgroundVue: #2e86b4;
 
-$textColor: #646464;
-$textColorLight: #e6e6e6;
-$textColorOwner: #00FFBA;
+// $textColor: #646464;
+// $textColorLight: #e6e6e6;
+// $textColorOwner: #00FFBA;
 
-$iconColor: #d8d8d8;
+// $iconColor: #d8d8d8;
 
-$LaravelColor: #ff8a3b;
-$LaravelColorLight: #fba165;
-$LaravelColorButton: #fe6207;
-$LaravelColorButtonLight: #f96d1b;
+// $LaravelColor: #ff8a3b;
+// $LaravelColorLight: #fba165;
+// $LaravelColorButton: #fe6207;
+// $LaravelColorButtonLight: #f96d1b;
 
-$jsColor: #20a883;
-$jsColorLight: #4ec2a3;
-$jsColorButton: #198e6e;
-$jsColorButtonLight: #3b977e;
+// $jsColor: #20a883;
+// $jsColorLight: #4ec2a3;
+// $jsColorButton: #198e6e;
+// $jsColorButtonLight: #3b977e;
 
-$vueColor: #2e86b4;
-$vueColorLight: #56a1c8;
-$vueColorButton: #2c779e;
-$vueColorButtonLight: #327598;
+// $vueColor: #2e86b4;
+// $vueColorLight: #56a1c8;
+// $vueColorButton: #2c779e;
+// $vueColorButtonLight: #327598;
 
-$flutterColor: #606060;
-$flutterColorLight: #7c7c7c;
-$flutterColorButton: #545454;
-$flutterColorButtonLight: #5e5e5e;
+// $flutterColor: #606060;
+// $flutterColorLight: #7c7c7c;
+// $flutterColorButton: #545454;
+// $flutterColorButtonLight: #5e5e5e;
 
 // Shadows
 $defaultShadow: 2px 1px 5px 1px rgba(0, 0, 0, 0.2);
@@ -236,6 +237,7 @@ i.buttom {
     outline: none;
     color: $textColor;
     width: 100%;
+    margin-left: 5px;
 
     &::placeholder {
       color: $iconColor;
